@@ -70,7 +70,12 @@ const Header = () => {
             </Link>
             <button className="button-primary">book a consultation</button>
           </nav>
-          <button onClick={() => setOpen(!open)}>
+          <button
+            onClick={() => {
+              setOpen(!open);
+            }}
+            className="btnShow"
+          >
             {open ? <AiOutlineClose size={25} /> : <RiMenu4Line size={25} />}
           </button>
         </div>
