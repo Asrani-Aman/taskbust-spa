@@ -10,10 +10,13 @@ const SinglePost = () => {
   const { id } = router.query
   const post = blogdata.find((post) => post.id === parseInt(id))
 
-  return (
+  {
+    post && 
+  
+  
     <>
       <Head>
-        {post.title ?   <title>{post.title}</title>: <p>TaskBust</p>}
+        {post.title ?   <title>{post.title}</title>: <title>TaskBust</title>}
       
       </Head>
       <section className='post-details bg-top'>
@@ -47,7 +50,7 @@ const SinglePost = () => {
         </div>
       </section>
     </>
-  )
+  }
 }
 
 export default SinglePost
