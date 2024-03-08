@@ -219,7 +219,7 @@ export const teamdata = [
   },
   {
     id: 5,
-    title: "Keshav ",
+    title: "Keshav Aggarwal",
     cover: "../images/keshav.jpg",
     post: "Technical lead",
   },
