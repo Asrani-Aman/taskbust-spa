@@ -1,6 +1,7 @@
 import Link from "next/link"
 import { TitleSm } from "./Title"
 import { HiOutlineArrowRight } from "react-icons/hi"
+import { useRouter } from 'next/router';
 
 export const Card = ({ data, caption, show, path }) => {
   return (
@@ -10,7 +11,7 @@ export const Card = ({ data, caption, show, path }) => {
           <img src={data.cover} alt={data.title} />
         </div>
         <div className='card-details'>
-          <Link href={`${path}/${data.id}`} className='title-link'>
+          <Link href={`${path}/${data.id}.js`} className='title-link'>
             <TitleSm title={data.title} />
           </Link>
           {caption && (
@@ -19,9 +20,8 @@ export const Card = ({ data, caption, show, path }) => {
             </Link>
           )}
           <div className='flex'>
-            <span> {data.catgeory} </span> {data.date && <span> / {data.date}</span>}
+            <span> {data.category} </span> {data.date && <span> / {data.date}</span>}
           </div>
-
           {show && (
             <ul>
               {data.desc.map((text, i) => (

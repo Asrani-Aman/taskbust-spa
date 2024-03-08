@@ -6,19 +6,19 @@ import { BiUser } from "react-icons/bi";
 export const home = [
   {
     icon: <AiOutlineCalendar size={25} />,
-    title: "10+ years of market experience",
+    title: "A Hassle free Environment",
   },
   {
     icon: <TfiRulerPencil size={25} />,
-    title: "Unique technologies & modern approach ",
+    title: "Affordable Tasks",
   },
   {
     icon: <VscFileSubmodule size={25} />,
-    title: "100+ cuccessful cases in portfolio",
+    title: "Frustration Free",
   },
   {
     icon: <BiUser size={25} />,
-    title: "Customer satisfaction is our top priority",
+    title: "Budget Friendly Prices",
   },
 ];
 export const expertise = [
@@ -36,7 +36,7 @@ export const expertise = [
   },
   {
     id: 2,
-    title: "Digital Marketing",
+    title: "Graphic Design",
     cover: "../images/e2.jpg",
     desc: [
       { text: "Social media marketing" },
@@ -47,18 +47,18 @@ export const expertise = [
   },
   {
     id: 3,
-    title: "E-Commerce",
+    title: "Video Editing",
     cover: "../images/e3.jpg",
     desc: [
-      { text: "E-Commerce website design" },
-      { text: "WooCommerce" },
-      { text: "Content management" },
-      { text: "Hosting" },
+      { text: "" },
+      { text: "" },
+      { text: "Motion Graphics" },
+      { text: "" },
     ],
   },
   {
     id: 4,
-    title: "Branding & Creative Services",
+    title: "Content Writing",
     cover: "../images/e4.jpg",
     desc: [
       { text: "Visual identity" },
