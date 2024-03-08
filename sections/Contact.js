@@ -21,22 +21,22 @@ const Contact = () => {
               <div className='contact-deatils'>
                 <div className='box'>
                   <FiHeadphones size={30} className='icons' />
-                  <h3>1-001-234-5678</h3>
+                  <h3>+91 9765000111</h3>
                   <span>Call us: Mon - Fri 9:00 - 19:00</span>
                 </div>
                 <div className='box'>
                   <IoLocationOutline size={30} className='icons' />
-                  <h3>New York</h3>
-                  <span>990 Madison Ave, Midtown Manhattan, 2th Floor, NY 10022</span>
+                  <h3> India </h3>
+                  <span>Himachap Pradesh</span>
                 </div>
                 <div className='box'>
                   <FiHelpCircle size={30} className='icons' />
-                  <h3>info@dream-theme.com</h3>
+                  <h3>team@taskbust.com</h3>
                   <span>Drop us a line anytime!</span>
                 </div>
                 <div className='box'>
                   <BiUserCircle size={30} className='icons' />
-                  <h3>hr@dream-theme.com</h3>
+                  <h3>TaskBust.com</h3>
                   <span>Career at Seven Creative</span>
                 </div>
               </div>
@@ -71,17 +71,10 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className='grid-2'>
-                  <div className='inputs'>
-                    <span>your budget</span>
-                    <input type='text' />
-                  </div>
-                  <div className='inputs'>
-                    <span>timeframe</span>
-                    <input type='text' />
-                  </div>
+                 
                 </div>
                 <div className='inputs'>
-                  <span>TELL US A BIT ABOUT YOUR PROJECT*</span>
+                  <span>Your Message</span>
                   <textarea cols='30' rows='10'></textarea>
                 </div>
                 <button className='button-primary'>Submit</button>
