@@ -290,8 +290,7 @@ export const blogdata = [
   },
   {
     id: 3,
-    title:
-      "Navigating the Freelance Marketplace Maze with TaskBust",
+    title: "Navigating the Freelance Marketplace Maze with TaskBust",
     cover: "../images/image2.png",
     catgeory: "Technical Services",
     date: "OCTOBER 9, 2023",
