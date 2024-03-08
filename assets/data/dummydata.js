@@ -208,7 +208,7 @@ export const teamdata = [
   {
     id: 3,
     title: "Mann Garg",
-    cover: "../images/t3.jpg",
+    cover: "../images/mann.jpg",
     post: "CREATIVE DIRECTOR",
   },
   {
@@ -220,7 +220,7 @@ export const teamdata = [
   {
     id: 5,
     title: "Keshav ",
-    cover: "../images/kehav.jpeg",
+    cover: "../images/keshav.jpg",
     post: "Technical lead",
   },
 
