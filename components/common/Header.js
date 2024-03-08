@@ -36,7 +36,7 @@ const Header = () => {
               href="/agency"
               className={activeLink == "/agency" ? "activeLink" : "none"}
             >
-              Agency
+              About us
             </Link>
             <Link
               href="/team"
@@ -50,12 +50,12 @@ const Header = () => {
             >
               Services
             </Link>
-            <Link
+            {/* <Link
               href="/showcase"
               className={activeLink == "/showcase" ? "activeLink" : "none"}
             >
               Showcase
-            </Link>
+            </Link> */}
             <Link
               href="/blogs"
               className={activeLink == "/blogs" ? "activeLink" : "none"}
@@ -68,7 +68,7 @@ const Header = () => {
             >
               Contact
             </Link>
-            <button className="button-primary">book a consultation</button>
+            <button className="button-primary">Get/Post your Work</button>
           </nav>
           <button
             onClick={() => {

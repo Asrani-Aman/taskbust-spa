@@ -1,7 +1,7 @@
 import { home } from "@/assets/data/dummydata";
 import Banner from "@/components/Banner";
 import Expertise from "@/components/Expertise";
-import ShowCase from "@/components/ShowCase";
+// import ShowCase from "@/components/ShowCase";
 import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
 import { BlogCard, Brand } from "@/components/router";
@@ -47,8 +47,8 @@ const Hero = () => {
       <Expertise />
       <Banner />
       <Testimonial />
-      <ShowCase />
-      <Brand />
+      {/* <ShowCase /> */}
+      {/* <Brand /> */}
 
       <div className="text-center">
         <Title title="Latest news & articles" />

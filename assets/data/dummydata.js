@@ -159,6 +159,7 @@ export const brand = [
   {
     id: 6,
     cover: "../images/l6.svg",
+
   },
 ];
 export const blogdata = [
@@ -166,6 +167,7 @@ export const blogdata = [
     id: 1,
     title: "Ligula vel urna accumsan placerat",
     cover: "../images/b1.webp",
+    
     catgeory: "INDUSTRY",
     date: "JANUARY 12, 2023",
   },
