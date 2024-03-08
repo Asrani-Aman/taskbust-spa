@@ -165,12 +165,6 @@ export const brand = [
 export const blogdata = [
   {
     id: 1,
-
-    title: "Ligula vel urna accumsan placerat",
-    cover: "../images/b1.webp",
-    
-    catgeory: "INDUSTRY",
-
     title: "TaskBust's Transparent Customer-Doer Interactions",
     cover: "../images/image.png",
     catgeory: "Technical Services",
