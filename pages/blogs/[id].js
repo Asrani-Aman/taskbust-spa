@@ -9,6 +9,7 @@ const SinglePost = () => {
   const router = useRouter()
   const { id } = router.query
   const post = blogdata.find((post) => post.id === parseInt(id))
+<<<<<<< HEAD
 
   {
     post && 
@@ -18,15 +19,27 @@ const SinglePost = () => {
       <Head>
         {post.title ?   <title>{post.title}</title>: <title>TaskBust</title>}
       
+=======
+  return (
+    <>
+      <Head>
+        <title>{post?.title}</title>
+>>>>>>> 0650df6a49a56212841a57400fafeb1765f2d1d3
       </Head>
       <section className='post-details bg-top'>
         <div className='container'>
           <div className='heading-title'>
             <TitleSm title='TIPS & TRICKS / JANUARY 12, 2022' /> <br />
             <br />
+<<<<<<< HEAD
             <Title title= {post.title ? post.title: "TaskBust"}className='title-bg' />
             <div className='img py'>
               <img src={post.cover} alt= {post.title ? post.title: "TaskBust"} width='100%' height='100%' className='round' />
+=======
+            <Title title={post?.title} className='title-bg' />
+            <div className='img py'>
+              <img src={post?.cover} alt={post?.title} width='100%' height='100%' className='round' />
+>>>>>>> 0650df6a49a56212841a57400fafeb1765f2d1d3
             </div>
             <div className='desc'>
               <TitleSm title='Phasellus at magna - elit tristique lacinia. Integer a justo vitae arcu fermentum consequat.' />
