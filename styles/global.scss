@@ -1,4 +1,7 @@
 /*  Hero Section */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 .hero {
   text-align: center;
   padding: $xl-6 0;
@@ -6,6 +9,7 @@
   height: 90vh !important;
   overflow: hidden !important;
   position: relative;
+
 
   &::before {
     content: "";

@@ -6,7 +6,9 @@ import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
 import { BlogCard, Brand } from "@/components/router";
 import React from "react";
-
+import Image from "next/image";
+import { twMerge } from "tailwind-merge";
+import { TracingBeam } from "@/components/ui/tracing-beam";
 const Hero = () => {
   return (
     <>
