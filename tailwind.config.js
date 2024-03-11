@@ -1,28 +1,25 @@
-<<<<<<< HEAD
+
 const defaultTheme = require("tailwindcss/defaultTheme");
-=======
+
 /** @type {import('tailwindcss').Config} */
 
 const defaultTheme = require("tailwindcss/defaultTheme");
 
->>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
+
 const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
-<<<<<<< HEAD
+
  
 /** @type {import('tailwindcss').Config} */
-=======
 
->>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
-<<<<<<< HEAD
- 
+
     // Or if using `src` directory:
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
@@ -34,7 +31,7 @@ module.exports = {
 }
 
 function addVariablesForColors({ addBase, theme }: any) {
-=======
+
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
@@ -48,15 +45,13 @@ function addVariablesForColors({ addBase, theme }: any) {
 }
 
 function addVariablesForColors({ addBase, theme }) {
->>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
+
   let allColors = flattenColorPalette(theme("colors"));
   let newVars = Object.fromEntries(
     Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
   );
-<<<<<<< HEAD
- 
-=======
->>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
+
+
   addBase({
     ":root": newVars,
   });

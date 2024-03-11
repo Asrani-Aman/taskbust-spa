@@ -1,9 +1,6 @@
-<<<<<<< HEAD
 "use client"
-import { Hero } from "@/sections";
-=======
+
 import { Hero } from "./../sections";
->>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
 import Head from "next/head";
 
 // import { calsans } from "@/fonts/calsans";
