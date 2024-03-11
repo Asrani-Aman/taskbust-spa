@@ -1,4 +1,4 @@
-import { ShowCase } from "@/sections"
+import { ShowCase } from "./../sections"
 import Head from "next/head"
 import React from "react"
 

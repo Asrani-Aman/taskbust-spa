@@ -1,7 +1,6 @@
-import { teamdata } from "@/assets/data/dummydata";
-// import { Card } from "@/components/common/Card";
-import { Title, TitleSm } from "@/components/common/Title";
-import team from "@/pages/team";
+import { teamdata } from "./../assets/data/dummydata";
+import { Title, TitleSm } from "./../components/common/Title";
+import team from "./../pages/team";
 import React from "react";
 import { Card2 } from "../components/common/Card2";
 

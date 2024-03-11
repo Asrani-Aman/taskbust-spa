@@ -1,6 +1,6 @@
-import { showcase } from "@/assets/data/dummydata"
-import { Card } from "@/components/common/Card"
-import { Title, TitleSm } from "@/components/common/Title"
+import { showcase } from "./../assets/data/dummydata"
+import { Card } from "./../components/common/Card"
+import { Title, TitleSm } from "./../components/common/Title"
 import React from "react"
 
 const ShowCase = () => {

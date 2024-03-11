@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { home } from "@/assets/data/dummydata";
 import Banner from "@/components/Banner";
 import Expertise from "@/components/Expertise";
@@ -5,6 +6,15 @@ import Expertise from "@/components/Expertise";
 import Testimonial from "@/components/Testimonial";
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title";
 import { BlogCard, Brand } from "@/components/router";
+=======
+import { home } from "./../assets/data/dummydata";
+import Banner from "./../components/Banner";
+import Expertise from "./../components/Expertise";
+import ShowCase from "./../components/ShowCase";
+import Testimonial from "./../components/Testimonial";
+import { Title, TitleLogo, TitleSm } from "./../components/common/Title";
+import { BlogCard, Brand } from "./../components/router";
+>>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
 import React from "react";
 import Image from "next/image";
 import { twMerge } from "tailwind-merge";

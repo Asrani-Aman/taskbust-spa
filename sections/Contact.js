@@ -1,4 +1,4 @@
-import { Title, TitleSm } from "@/components/common/Title"
+import { Title, TitleSm } from "./../components/common/Title"
 import React from "react"
 import { AiFillBehanceCircle, AiFillInstagram, AiFillLinkedin } from "react-icons/ai"
 import { BiUserCircle } from "react-icons/bi"

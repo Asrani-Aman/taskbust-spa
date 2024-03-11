@@ -9,8 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "clsx": "^2.1.0",
     "eslint": "^8.57.0",
+=======
+    "@radix-ui/react-label": "^2.0.2",
+    "@tabler/icons-react": "^3.0.0",
+    "clsx": "^2.1.0",
+>>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
     "framer-motion": "^11.0.8",
     "next": "13.3.0",
     "react": "18.2.0",
@@ -19,12 +25,23 @@
     "react-slick": "^0.29.0",
     "sass": "^1.61.0",
     "slick-carousel": "^1.8.1",
+<<<<<<< HEAD
     "tailwind-merge": "^2.2.1"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.35",
     "prettier": "3.2.5",
+=======
+    "tailwind-merge": "^2.2.1",
+    "typescript": "^5.4.2"
+  },
+  "devDependencies": {
+    "@types/node": "20.11.25",
+    "@types/react": "18.2.64",
+    "autoprefixer": "^10.4.18",
+    "postcss": "^8.4.35",
+>>>>>>> 6dbd184c5cd2d5d12ce1e98f48c197f63f4f2fbf
     "tailwindcss": "^3.4.1"
   }
 }

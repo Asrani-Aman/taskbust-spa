@@ -1,6 +1,6 @@
 import React from "react"
 import { Card } from "./common/Card"
-import { blogdata } from "@/assets/data/dummydata"
+import { blogdata } from "./../assets/data/dummydata"
 
 const BlogCard = () => {
   return (

@@ -1,7 +1,7 @@
-import Banner from "@/components/Banner"
-import Brand from "@/components/Brand"
-import Testimonial from "@/components/Testimonial"
-import { Title, TitleSm } from "@/components/common/Title"
+import Banner from "./../components/Banner"
+import Brand from "./../components/Brand"
+import Testimonial from "./../components/Testimonial"
+import { Title, TitleSm } from "./../components/common/Title"
 
 const Agency = () => {
   return (
