@@ -1,4 +1,4 @@
-import { Agency } from "@/sections";
+import { Agency } from "./../sections";
 import Head from "next/head";
 
 const AgencyPage = () => {

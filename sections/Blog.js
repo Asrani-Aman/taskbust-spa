@@ -1,7 +1,6 @@
-import { blog } from "@/assets/data/dummydata"
-import BlogCard from "@/components/BlogCard"
-import { Card } from "@/components/common/Card"
-import { Title, TitleSm } from "@/components/common/Title"
+import BlogCard from "./../components/BlogCard"
+import { Card } from "./../components/common/Card"
+import { Title, TitleSm } from "./../components/common/Title"
 import React from "react"
 
 const Blog = () => {

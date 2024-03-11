@@ -1,4 +1,4 @@
-import { Contact } from "@/sections";
+import { Contact } from "./../sections";
 import Head from "next/head";
 import React from "react";
 

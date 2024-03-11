@@ -1,4 +1,4 @@
-import { Hero } from "@/sections";
+import { Hero } from "./../sections";
 import Head from "next/head";
 
 export default function Home() {

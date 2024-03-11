@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 /*  Hero Section */
 .hero {
   text-align: center;
@@ -36,6 +40,7 @@
       margin: $xl-6 0;
     }
   }
+
   .sub-heading {
     display: flex;
     justify-content: center;
@@ -413,6 +418,7 @@ footer {
   }
 
   .agency {
+
     .flex,
     .flex1 {
       flex-direction: column;

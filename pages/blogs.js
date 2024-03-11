@@ -1,4 +1,4 @@
-import { Blog } from "@/sections";
+import { Blog } from "./../sections";
 import Head from "next/head";
 
 const Blogs = () => {
